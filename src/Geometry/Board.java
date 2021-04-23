@@ -1,5 +1,9 @@
 package Geometry;
 
+import Ants.Ant;
+
+import java.util.Random;
+
 public class Board {
     private final char[][] board;
     private final int size;
@@ -27,5 +31,12 @@ public class Board {
 
     public void clear(Position position){
         board[position.y][position.x] = 0;
+    }
+
+    public void placeOn(Ant ant){
+        int randomX = (int) (Math.random() * (size - 1));
+        int randomY = (int) (Math.random() * (size - 1));
+        ant.setPosition(new Position(randomX, randomY));
+        setOn(ant.symbol(), ant.getPosition());
     }
 }
