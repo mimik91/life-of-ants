@@ -1,4 +1,5 @@
 package Ants;
 
-public class Drone {
+public class Drone{
+
 }

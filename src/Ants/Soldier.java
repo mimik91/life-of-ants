@@ -1,4 +1,5 @@
 package Ants;
 
-public class Soldier {
+public class Soldier{
+
 }
