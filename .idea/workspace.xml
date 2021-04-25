@@ -5,17 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef8ef2c7-ff07-4dcc-b5e8-7172b3e004c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/logic/KeyListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Ant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Drone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Queen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/geometry/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants/Colony.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Colony.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Simulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants/geometry/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/geometry/Direction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants/geometry/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/geometry/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants/Colony.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants/Simulator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants/geometry/Direction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants/geometry/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Simulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/KeyListener$Key.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/KeyListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Simulator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Simulator$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Simulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Simulator.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +43,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CodeCool/elGrande" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RunManager">
     <configuration name="Simulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -96,6 +96,9 @@
       <workItem from="1609182366594" duration="389000" />
       <workItem from="1609257868599" duration="1803000" />
       <workItem from="1619352194744" duration="1277000" />
+      <workItem from="1619362329579" duration="223000" />
+      <workItem from="1619362568533" duration="218000" />
+      <workItem from="1619362799525" duration="343000" />
     </task>
     <servers />
   </component>

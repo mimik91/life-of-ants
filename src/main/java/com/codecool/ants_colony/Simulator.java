@@ -2,6 +2,8 @@ package com.codecool.ants_colony;
 
 import com.codecool.ants_colony.logic.KeyListener;
 
+
+
 public class Simulator {
     private Colony board;
 
