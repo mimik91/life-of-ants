@@ -8,8 +8,8 @@ import java.util.Collections;
 import java.util.List;
 
 public class Drone extends Ant {
-    private List<Direction> directions = Collections.unmodifiableList(Arrays.asList(Direction.values()));
-    private Queen destination;
+    private final List<Direction> directions = Collections.unmodifiableList(Arrays.asList(Direction.values()));
+    private final Queen destination;
     int mating = 0;
 
     public Drone(Position position, Queen destination) {
@@ -32,7 +32,7 @@ public class Drone extends Ant {
         else if (this.getPosition().y < destination.getPosition().y){
             this.getPosition().changeBy(Direction.SOUTH.getDirction());
         }
-        else if (destination.getMood() == true && destination.getMating() == false) {
+        else if (destination.getMood() && !destination.getMating()) {
             System.out.println("HALLELUJAH");
             this.mating += 1;
             destination.setMating();

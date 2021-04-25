@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef8ef2c7-ff07-4dcc-b5e8-7172b3e004c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Drone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Drone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Queen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Colony.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Colony.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/geometry/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/geometry/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/logic/AntManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/logic/AntManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Ants/Drone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Ants/Drone.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Ants/Queen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Ants/Queen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Colony.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Colony.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/geometry/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/geometry/Board.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/geometry/Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/geometry/Position.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/logic/AntManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/logic/AntManager.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

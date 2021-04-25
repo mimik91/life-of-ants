@@ -7,6 +7,7 @@ import java.io.PipedOutputStream;
 public class Queen extends Ant {
     private boolean mood = true;
     private boolean mating = false;
+    private int daysToGoodMood = 0;
 
     public Queen(Position position) {
         super('Q', position);
@@ -14,7 +15,13 @@ public class Queen extends Ant {
 
     @Override
     public void move(int size) {
-
+        if (daysToGoodMood > 0){
+            daysToGoodMood -= 1;
+            System.out.println(daysToGoodMood);
+        }
+        else {
+            mood = true;
+        }
     }
 
     public void setMating(){
@@ -23,6 +30,8 @@ public class Queen extends Ant {
 
     public void finishMating(){
         this.mating = false;
+        daysToGoodMood = (int)(Math.random()*(50))+50;
+        this.mood = false;
     }
 
     public boolean getMood(){
