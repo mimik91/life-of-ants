@@ -1,4 +1,4 @@
-package com.codecool.ants.geometry;
+package com.codecool.ants_colony.geometry;
 
 public class Position {
 

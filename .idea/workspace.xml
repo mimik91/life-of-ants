@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef8ef2c7-ff07-4dcc-b5e8-7172b3e004c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants/Colony.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/logic/KeyListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants/Simulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants/Colony.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Colony.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Simulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants/geometry/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/geometry/Direction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants/geometry/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/geometry/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants/Colony.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants/Simulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants/geometry/Direction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants/geometry/Position.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +50,11 @@
   </component>
   <component name="RunManager">
     <configuration name="Simulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codecool.ants.Simulator" />
+      <option name="MAIN_CLASS_NAME" value="com.codecool.ants_colony.Simulator" />
       <module name="ants" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codecool.ants.*" />
+          <option name="PATTERN" value="com.codecool.ants_colony.logic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -54,13 +62,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -85,6 +95,7 @@
       <workItem from="1590912150562" duration="3156000" />
       <workItem from="1609182366594" duration="389000" />
       <workItem from="1609257868599" duration="1803000" />
+      <workItem from="1619352194744" duration="1277000" />
     </task>
     <servers />
   </component>
@@ -100,14 +111,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/codecool/ants/Colony.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Colony.java</url>
           <line>4</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/codecool/ants/Simulator.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,4 +1,4 @@
-package com.codecool.ants;
+package com.codecool.ants_colony;
 
 import java.util.ArrayList;
 
