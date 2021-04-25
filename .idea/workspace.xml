@@ -5,15 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef8ef2c7-ff07-4dcc-b5e8-7172b3e004c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Ant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Drone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Queen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/geometry/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/logic/AntFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Ant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Ant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Drone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Drone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Soldier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Soldier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Colony.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Colony.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Simulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/KeyListener$Key.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/KeyListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/geometry/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/geometry/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/geometry/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/geometry/Direction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Ants/Ant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Ants/Ant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Ants/Drone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Ants/Drone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Ants/Queen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Ants/Queen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Ants/Soldier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Ants/Soldier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Ants/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Ants/Worker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Colony.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Colony.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Simulator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Simulator$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Simulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Simulator.class" afterDir="false" />
     </list>
@@ -98,7 +106,7 @@
       <workItem from="1619352194744" duration="1277000" />
       <workItem from="1619362329579" duration="223000" />
       <workItem from="1619362568533" duration="218000" />
-      <workItem from="1619362799525" duration="343000" />
+      <workItem from="1619362799525" duration="3002000" />
     </task>
     <servers />
   </component>
@@ -109,16 +117,5 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../../../.." />
     </ignored-roots>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Colony.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -1,7 +1,13 @@
 package com.codecool.ants_colony.Ants;
 
+import com.codecool.ants_colony.geometry.Position;
+
+import java.io.PipedOutputStream;
+
 public class Queen extends Ant {
-    public Queen() {
-        super(symbol);
+
+    public Queen(Position position) {
+        super('Q', position);
     }
+
 }

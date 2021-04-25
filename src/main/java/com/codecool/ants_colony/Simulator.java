@@ -5,11 +5,10 @@ import com.codecool.ants_colony.logic.KeyListener;
 
 
 public class Simulator {
-    private Colony board;
+    private final Colony colony;
 
     public Simulator(){
-        board = new Colony(10);
-        board.printBoard();
+        colony = new Colony(9);
         System.out.println("You can use `mvn package; java -jar target/ants-1.0.jar` to run this app from the console");
     }
 

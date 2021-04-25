@@ -6,8 +6,9 @@ public abstract class Ant {
     private Position position;
     private final char symbol;
 
-    protected Ant(char symbol) {
+    protected Ant(char symbol, Position position) {
         this.symbol = symbol;
+        this.position = position;
     }
 
     public char getSymbol(){
