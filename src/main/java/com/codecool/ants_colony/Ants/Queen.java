@@ -10,4 +10,8 @@ public class Queen extends Ant {
         super('Q', position);
     }
 
+    @Override
+    public void move(int size) {
+
+    }
 }

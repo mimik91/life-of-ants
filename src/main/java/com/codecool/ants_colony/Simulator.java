@@ -26,7 +26,7 @@ public class Simulator {
 
             switch (key) {
                 case ENTER:
-                    System.out.println("PENIS");
+                    colony.makeMove();
                     break;
             }
         } while(key != KeyListener.Key.Q);

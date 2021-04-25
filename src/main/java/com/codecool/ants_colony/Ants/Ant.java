@@ -11,6 +11,8 @@ public abstract class Ant {
         this.position = position;
     }
 
+    public abstract void move(int size);
+
     public char getSymbol(){
         return this.symbol;
     }

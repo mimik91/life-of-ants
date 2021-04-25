@@ -33,4 +33,8 @@ public class Board {
         int randomY = (int)(Math.random() * 8);
         return new Position(randomX, randomY);
     }
+
+    public int getSize() {
+        return size;
+    }
 }
