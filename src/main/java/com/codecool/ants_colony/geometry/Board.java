@@ -29,8 +29,8 @@ public class Board {
     }
 
     public Position getRandomPosition(){
-        int randomX = (int)(Math.random() * 8);
-        int randomY = (int)(Math.random() * 8);
+        int randomX = (int)(Math.random() * (size-1));
+        int randomY = (int)(Math.random() * (size-1));
         return new Position(randomX, randomY);
     }
 
