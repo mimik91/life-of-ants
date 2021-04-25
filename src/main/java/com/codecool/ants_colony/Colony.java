@@ -9,14 +9,11 @@ import java.util.Queue;
 
 public class Colony {
     private final Board board;
-    private final Queen queen;
     private final AntManager antManager;
 
     public Colony(int size){
         this.board = new Board(size);
-        this.queen = new Queen(board.getCenter());
-        board.setOnBoard(queen.getSymbol(), queen.getPosition());
-        this.antManager = new AntManager(board, 5,5,5);
+        this.antManager = new AntManager(board, 5,5,2);
         board.print();
     }
 
