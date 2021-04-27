@@ -4,9 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef8ef2c7-ff07-4dcc-b5e8-7172b3e004c6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Drone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Drone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Queen.java" afterDir="false" />
+    <list default="true" id="b71ad544-771e-4058-a531-b422531a530d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/colonySymulator/ApplicationSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Ant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/colonySymulator/ants/Ant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Drone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/colonySymulator/ants/Drone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/colonySymulator/ants/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Soldier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/colonySymulator/ants/Soldier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Ants/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/colonySymulator/ants/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Colony.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/colonySymulator/Simulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/geometry/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/colonySymulator/geometry/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/geometry/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/colonySymulator/geometry/Direction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/geometry/Directions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/colonySymulator/geometry/Directions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/geometry/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/colonySymulator/geometry/Coordynates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/geometry/RandomDirection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/colonySymulator/geometry/RandomDirection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/logic/AntManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/colonySymulator/logic/Colony.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/logic/KeyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/colonySymulator/logic/KeyListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codecool/ants_colony/logic/KeyOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Ants/Ant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Ants/Drone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Ants/Queen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Ants/Soldier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Ants/Worker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Colony.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Simulator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/Simulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/geometry/Board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/geometry/Direction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/geometry/Directions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/geometry/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/geometry/RandomDirection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/logic/AntManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/logic/KeyListener$Key.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/logic/KeyListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/codecool/ants_colony/logic/KeyOperator.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,14 +53,9 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1cfGHhDAb8Yt5pjxnnYcNGa1H8y" />
+  <component name="ProjectId" id="1riHPCGJxRIaYrNBtEsuDu0x9eN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,18 +66,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CodeCool/elGrande" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Simulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.codecool.ants_colony.Simulator" />
+      <option name="MAIN_CLASS_NAME" value="colonySymulator.Simulator" />
       <module name="ants" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.codecool.ants_colony.logic.*" />
+          <option name="PATTERN" value="colonySymulator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,15 +82,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -74,40 +96,50 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Simulator" />
-        <item itemvalue="Application.Simulator" />
-        <item itemvalue="Application.Simulator" />
-        <item itemvalue="Application.Simulator" />
-        <item itemvalue="Application.Simulator" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ef8ef2c7-ff07-4dcc-b5e8-7172b3e004c6" name="Default Changelist" comment="" />
-      <created>1590912147308</created>
+      <changelist id="b71ad544-771e-4058-a531-b422531a530d" name="Default Changelist" comment="" />
+      <created>1619451978736</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1590912147308</updated>
-      <workItem from="1590912150562" duration="3156000" />
-      <workItem from="1609182366594" duration="389000" />
-      <workItem from="1609257868599" duration="1803000" />
-      <workItem from="1619352194744" duration="1277000" />
-      <workItem from="1619362329579" duration="223000" />
-      <workItem from="1619362568533" duration="218000" />
-      <workItem from="1619362799525" duration="7765000" />
+      <updated>1619451978736</updated>
+      <workItem from="1619451987515" duration="546000" />
+      <workItem from="1619452577137" duration="121000" />
+      <workItem from="1619454171461" duration="287000" />
+      <workItem from="1619464991898" duration="4105000" />
+      <workItem from="1619510915092" duration="4554000" />
+      <workItem from="1619525428779" duration="913000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/../../../.." />
-    </ignored-roots>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/colonySymulator/logic/Colony.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
